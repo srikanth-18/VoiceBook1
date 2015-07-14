@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="XmlFoundEndOfFile" xml:space="preserve">
+    <value>ファイルの終わり (EOF)</value>
+  </data>
+  <data name="UnknownFeedXml" xml:space="preserve">
+    <value>名前が '{0}' で名前空間が '{1}' の要素は、許可されているフィード形式ではありません。</value>
+  </data>
+  <data name="ErrorParsingDateTime" xml:space="preserve">
+    <value>XML 内の DateTime 値の解析中にエラーが発生しました。</value>
+  </data>
+  <data name="ValueMustBeNonNegative" xml:space="preserve">
+    <value>この引数の値は、負でない値である必要があります。</value>
+  </data>
+  <data name="FeedCreatedNullPerson" xml:space="preserve">
+    <value>フィードで NULL ユーザーが作成されました。</value>
+  </data>
+  <data name="FeedCreatedNullItem" xml:space="preserve">
+    <value>フィードで NULL 項目が作成されました。</value>
+  </data>
+  <data name="ItemLinksIgnoredOnWrite" xml:space="preserve">
+    <value>この項目のリンクは、フィードを RSS 2.0 形式でシリアル化する過程でシリアル化されませんでした。</value>
+  </data>
+  <data name="SeekNotSupported" xml:space="preserve">
+    <value>このストリームでシークはサポートされていません。</value>
+  </data>
+  <data name="FeedIdIgnoredOnWrite" xml:space="preserve">
+    <value>このフィードの ID は、フィードを RSS 2.0 形式でシリアル化する過程でシリアル化されませんでした。</value>
+  </data>
+  <data name="FeedFormatterDoesNotHaveFeed" xml:space="preserve">
+    <value>配信フィード フォーマッタは、配信フィードで構成されている必要があります。</value>
+  </data>
+  <data name="ItemLastUpdatedTimeIgnoredOnWrite" xml:space="preserve">
+    <value>この項目の最終更新時間は、フィードを RSS 2.0 形式でシリアル化する過程でシリアル化されませんでした。</value>
+  </data>
+  <data name="ItemContentIgnoredOnWrite" xml:space="preserve">
+    <value>この項目のコンテンツは、フィードを RSS 2.0 形式でシリアル化する過程でシリアル化されませんでした。</value>
+  </data>
+  <data name="ItemCopyrightIgnoredOnWrite" xml:space="preserve">
+    <value>この項目の著作権は、フィードを RSS 2.0 形式でシリアル化する過程でシリアル化されませんでした。</value>
+  </data>
+  <data name="XmlFoundElement" xml:space="preserve">
+    <value>名前空間 '{1}' の要素 '{0}'</value>
+  </data>
+  <data name="FeedHasNonContiguousItems" xml:space="preserve">
+    <value>シリアル化が解除されるフィード内には、連続していない項目セットがあります。これは '{0}' でサポートされていません。</value>
+  </data>
+  <data name="JsonInvalidLocalNameEmpty" xml:space="preserve">
+    <value>空の文字列は、有効なローカル名ではありません。</value>
+  </data>
+  <data name="FeedAuthorsIgnoredOnWrite" xml:space="preserve">
+    <value>このフィードの作成者は、フィードを RSS 2.0 形式でシリアル化する過程でシリアル化されませんでした。</value>
+  </data>
+  <data name="XmlStartElementExpected" xml:space="preserve">
+    <value>開始要素が必要です。見つかったのは {0} でした。</value>
+  </data>
+  <data name="XmlFoundComment" xml:space="preserve">
+    <value>コメント '{0}'</value>
+  </data>
+  <data name="XmlFoundNodeType" xml:space="preserve">
+    <value>ノード {0}</value>
+  </data>
+  <data name="UnknownItemXml" xml:space="preserve">
+    <value>名前が '{0}' で名前空間が '{1}' の要素は、許可されている項目形式ではありません。</value>
+  </data>
+  <data name="ItemCreatedNullPerson" xml:space="preserve">
+    <value>項目で NULL ユーザーが作成されました。</value>
+  </data>
+  <data name="ItemContributorsIgnoredOnWrite" xml:space="preserve">
+    <value>この項目の投稿者は、フィードを RSS 2.0 形式でシリアル化する過程でシリアル化されませんでした。</value>
+  </data>
+  <data name="FeedCreatedNullCategory" xml:space="preserve">
+    <value>フィードで NULL カテゴリが作成されました。</value>
+  </data>
+  <data name="XmlFoundText" xml:space="preserve">
+    <value>テキスト '{0}'</value>
+  </data>
+  <data name="Atom10SpecRequiresTextConstruct" xml:space="preserve">
+    <value>Atom10 の指定では '{0}' の値が "text"、"html"、"xhtml" のいずれかの必要がありますが、シリアル化が解除されるドキュメントではこの値は '{1}' です。</value>
+  </data>
+  <data name="UriGeneratorSchemeMustNotBeEmpty" xml:space="preserve">
+    <value>スキーマのパラメーターを空にしてはいけません。</value>
+  </data>
+  <data name="UnbufferedItemsCannotBeCloned" xml:space="preserve">
+    <value>バッファーされていない項目 (IList に格納されていない項目など) が含まれているフィードは、そのフィード自体の項目を複製できません。フィードで Clone を呼び出す前にフィード内の項目をバッファーするか、Clone メソッドに false を渡してください。</value>
+  </data>
+  <data name="ReadNotSupported" xml:space="preserve">
+    <value>このストリームで読み取りはサポートされていません。</value>
+  </data>
+  <data name="OuterElementNameNotSpecified" xml:space="preserve">
+    <value>外部要素名を指定する必要があります。</value>
+  </data>
+  <data name="ErrorInLine" xml:space="preserve">
+    <value>{0} 行目の位置 {1} にエラーがあります。</value>
+  </data>
+  <data name="XmlBufferQuotaExceeded" xml:space="preserve">
+    <value>XML コンテンツをバッファー処理するために必要なサイズがバッファー クォータを超えました。これは、拡張機能の読み込み時に maxExtensionSize パラメーターに渡された値の大きさが不十分であるため発生した可能性があります。</value>
+  </data>
+  <data name="ItemFormatterDoesNotHaveItem" xml:space="preserve">
+    <value>配信項目フォーマッタは、配信項目で構成されている必要があります。</value>
+  </data>
+  <data name="XmlBufferClosed" xml:space="preserve">
+    <value>XmlBuffer オブジェクトは、データが関連する Stream から読み取られる前に閉じられました。</value>
+  </data>
+  <data name="FeedContributorsIgnoredOnWrite" xml:space="preserve">
+    <value>このフィードの投稿者は、フィードを RSS 2.0 形式でシリアル化する過程でシリアル化されませんでした。</value>
+  </data>
+  <data name="FeedLinksIgnoredOnWrite" xml:space="preserve">
+    <value>このフィードのリンクは、フィードを RSS 2.0 形式でシリアル化する過程でシリアル化されませんでした。</value>
+  </data>
+  <data name="ItemAuthorsIgnoredOnWrite" xml:space="preserve">
+    <value>この項目の作成者は、フィードを RSS 2.0 形式でシリアル化する過程でシリアル化されませんでした。</value>
+  </data>
+  <data name="ErrorParsingItem" xml:space="preserve">
+    <value>項目の XML の解析中にエラーが発生しました。詳細については、内部例外を参照してください。</value>
+  </data>
+  <data name="ErrorParsingFeed" xml:space="preserve">
+    <value>フィードの XML の解析中にエラーが発生しました。詳細については、内部例外を参照してください。</value>
+  </data>
+  <data name="XmlBufferInInvalidState" xml:space="preserve">
+    <value>内部エラーが発生しました。XML バッファーがこの操作を実行するための適切な状態にありません。</value>
+  </data>
+  <data name="XmlFoundCData" xml:space="preserve">
+    <value>cdata '{0}'</value>
+  </data>
+  <data name="UnsupportedRssVersion" xml:space="preserve">
+    <value>Rss20Serializer は、RSS バージョン '{0}' をサポートしていません。</value>
+  </data>
+  <data name="InvalidObjectTypePassed" xml:space="preserve">
+    <value>パラメーター '{0}' として渡されたオブジェクトの型は {1} から派生していません。渡されるオブジェクトの型が {1} であるか、{1} から派生していることを確認してください。</value>
+  </data>
+  <data name="ExtensionNameNotSpecified" xml:space="preserve">
+    <value>拡張要素の名前を指定する必要があります。</value>
+  </data>
+  <data name="ItemCreatedNullCategory" xml:space="preserve">
+    <value>項目で NULL カテゴリが作成されました。</value>
+  </data>
+  <data name="XmlFoundEndElement" xml:space="preserve">
+    <value>名前空間 '{1}' の終了要素 '{0}'</value>
+  </data>
+</root>

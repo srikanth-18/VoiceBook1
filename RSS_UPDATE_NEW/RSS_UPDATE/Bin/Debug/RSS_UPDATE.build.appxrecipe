@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SPOORTHY</Machine>
+    <WindowsUser>SAI SPOORTHY</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>b7d456a6-d682-4107-a94b-b44ebd047261</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\Bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\Bin\Debug\RSS_UPDATE.dll">
+      <PackagePath>RSS_UPDATE.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Documents\Visual Studio 2012\Projects\RSS_UPDATE\packages\HtmlAgilityPack.1.4.9\lib\sl4\HtmlAgilityPack.dll">
+      <PackagePath>HtmlAgilityPack.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.ServiceModel.Syndication.dll">
+      <PackagePath>System.ServiceModel.Syndication.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.Xml.XPath.dll">
+      <PackagePath>System.Xml.XPath.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\de\System.ServiceModel.Syndication.resources.dll">
+      <PackagePath>de\System.ServiceModel.Syndication.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\es\System.ServiceModel.Syndication.resources.dll">
+      <PackagePath>es\System.ServiceModel.Syndication.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\fr\System.ServiceModel.Syndication.resources.dll">
+      <PackagePath>fr\System.ServiceModel.Syndication.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\it\System.ServiceModel.Syndication.resources.dll">
+      <PackagePath>it\System.ServiceModel.Syndication.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\ja\System.ServiceModel.Syndication.resources.dll">
+      <PackagePath>ja\System.ServiceModel.Syndication.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\ko\System.ServiceModel.Syndication.resources.dll">
+      <PackagePath>ko\System.ServiceModel.Syndication.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\ru\System.ServiceModel.Syndication.resources.dll">
+      <PackagePath>ru\System.ServiceModel.Syndication.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\zh-Hans\System.ServiceModel.Syndication.resources.dll">
+      <PackagePath>zh-Hans\System.ServiceModel.Syndication.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\zh-Hant\System.ServiceModel.Syndication.resources.dll">
+      <PackagePath>zh-Hant\System.ServiceModel.Syndication.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\de\System.Xml.XPath.resources.dll">
+      <PackagePath>de\System.Xml.XPath.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\es\System.Xml.XPath.resources.dll">
+      <PackagePath>es\System.Xml.XPath.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\fr\System.Xml.XPath.resources.dll">
+      <PackagePath>fr\System.Xml.XPath.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\it\System.Xml.XPath.resources.dll">
+      <PackagePath>it\System.Xml.XPath.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\ja\System.Xml.XPath.resources.dll">
+      <PackagePath>ja\System.Xml.XPath.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\ko\System.Xml.XPath.resources.dll">
+      <PackagePath>ko\System.Xml.XPath.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\ru\System.Xml.XPath.resources.dll">
+      <PackagePath>ru\System.Xml.XPath.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\zh-Hans\System.Xml.XPath.resources.dll">
+      <PackagePath>zh-Hans\System.Xml.XPath.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\zh-Hant\System.Xml.XPath.resources.dll">
+      <PackagePath>zh-Hant\System.Xml.XPath.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Documents\Visual Studio 2012\Projects\RSS_UPDATE\packages\HtmlAgilityPack.1.4.9\lib\sl4\HtmlAgilityPack.xml">
+      <PackagePath>HtmlAgilityPack.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.ServiceModel.Syndication.xml">
+      <PackagePath>System.ServiceModel.Syndication.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.Xml.XPath.xml">
+      <PackagePath>System.Xml.XPath.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\Assets\htmlstring.txt">
+      <PackagePath>Assets\htmlstring.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\RSS_UPDATE_NEW\RSS_UPDATE\Bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

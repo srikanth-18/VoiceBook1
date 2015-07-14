@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="XmlFoundEndOfFile" xml:space="preserve">
+    <value>檔案結束</value>
+  </data>
+  <data name="UnknownFeedXml" xml:space="preserve">
+    <value>具有名稱 '{0}' 與命名空間 '{1}' 的項目不是允許的摘要格式。</value>
+  </data>
+  <data name="ErrorParsingDateTime" xml:space="preserve">
+    <value>剖析 XML 中的 DateTime 值時發生錯誤。</value>
+  </data>
+  <data name="ValueMustBeNonNegative" xml:space="preserve">
+    <value>此引數值必須是非負數。</value>
+  </data>
+  <data name="FeedCreatedNullPerson" xml:space="preserve">
+    <value>摘要已建立 null 人員。</value>
+  </data>
+  <data name="FeedCreatedNullItem" xml:space="preserve">
+    <value>摘要已建立 null 項目。</value>
+  </data>
+  <data name="ItemLinksIgnoredOnWrite" xml:space="preserve">
+    <value>以 RSS 2.0 格式將摘要序列化時，未序列化項目的連結。</value>
+  </data>
+  <data name="SeekNotSupported" xml:space="preserve">
+    <value>此資料流不支援搜尋。</value>
+  </data>
+  <data name="FeedIdIgnoredOnWrite" xml:space="preserve">
+    <value>以 RSS 2.0 格式將摘要序列化時，未序列化摘要的識別碼。</value>
+  </data>
+  <data name="FeedFormatterDoesNotHaveFeed" xml:space="preserve">
+    <value>必須使用新聞訂閱摘要來設定新聞訂閱摘要格式器。</value>
+  </data>
+  <data name="ItemLastUpdatedTimeIgnoredOnWrite" xml:space="preserve">
+    <value>以 RSS 2.0 格式將摘要序列化時，未序列化項目的上次更新時間。</value>
+  </data>
+  <data name="ItemContentIgnoredOnWrite" xml:space="preserve">
+    <value>以 RSS 2.0 格式將摘要序列化時，未序列化項目的內容。</value>
+  </data>
+  <data name="ItemCopyrightIgnoredOnWrite" xml:space="preserve">
+    <value>以 RSS 2.0 格式將摘要序列化時，未序列化項目的著作權。</value>
+  </data>
+  <data name="XmlFoundElement" xml:space="preserve">
+    <value>來自命名空間 '{1}' 的項目 '{0}'</value>
+  </data>
+  <data name="FeedHasNonContiguousItems" xml:space="preserve">
+    <value>要還原序列化的摘要具有非連續的項目集合。'{0}' 不支援此情況。</value>
+  </data>
+  <data name="JsonInvalidLocalNameEmpty" xml:space="preserve">
+    <value>空字串不是有效的本機名稱。</value>
+  </data>
+  <data name="FeedAuthorsIgnoredOnWrite" xml:space="preserve">
+    <value>以 RSS 2.0 格式將摘要序列化時，未序列化摘要的作者。</value>
+  </data>
+  <data name="XmlStartElementExpected" xml:space="preserve">
+    <value>需要開始項目，但找到 {0}。</value>
+  </data>
+  <data name="XmlFoundComment" xml:space="preserve">
+    <value>註解 '{0}'</value>
+  </data>
+  <data name="XmlFoundNodeType" xml:space="preserve">
+    <value>節點 {0}</value>
+  </data>
+  <data name="UnknownItemXml" xml:space="preserve">
+    <value>具有名稱 '{0}' 與命名空間 '{1}' 的項目不是允許的項目格式。</value>
+  </data>
+  <data name="ItemCreatedNullPerson" xml:space="preserve">
+    <value>項目已建立 null 人員。</value>
+  </data>
+  <data name="ItemContributorsIgnoredOnWrite" xml:space="preserve">
+    <value>以 RSS 2.0 格式將摘要序列化時，未序列化項目的參與者。</value>
+  </data>
+  <data name="FeedCreatedNullCategory" xml:space="preserve">
+    <value>摘要已建立 null 類別。</value>
+  </data>
+  <data name="XmlFoundText" xml:space="preserve">
+    <value>文字 '{0}'</value>
+  </data>
+  <data name="Atom10SpecRequiresTextConstruct" xml:space="preserve">
+    <value>Atom10 規格要求 {0} 具有下列其中一個值: text、html、xhtml，但是，這個值是已還原序列化文件中的 {1}。</value>
+  </data>
+  <data name="UriGeneratorSchemeMustNotBeEmpty" xml:space="preserve">
+    <value>配置參數不可以空白。</value>
+  </data>
+  <data name="UnbufferedItemsCannotBeCloned" xml:space="preserve">
+    <value>摘要無法處理其內未緩衝處理的項目 (即未儲存在 IList 中的項目)。在摘要上呼叫 Clone 或傳遞 false 到 Clone 方法之前，請先緩衝處理摘要中的項目。</value>
+  </data>
+  <data name="ReadNotSupported" xml:space="preserve">
+    <value>此資料流不支援讀取。</value>
+  </data>
+  <data name="OuterElementNameNotSpecified" xml:space="preserve">
+    <value>必須指定外部項目的名稱。</value>
+  </data>
+  <data name="ErrorInLine" xml:space="preserve">
+    <value>錯誤發生於行 {0} 位置 {1}。</value>
+  </data>
+  <data name="XmlBufferQuotaExceeded" xml:space="preserve">
+    <value>用來緩衝處理 XML 內容的所需大小已超過緩衝區配額。這可能是因為在載入延伸時，傳給 maxExtensionSize 參數的值不夠大所引起。</value>
+  </data>
+  <data name="ItemFormatterDoesNotHaveItem" xml:space="preserve">
+    <value>必須使用新聞訂閱項目設定新聞訂閱項目格式器。</value>
+  </data>
+  <data name="XmlBufferClosed" xml:space="preserve">
+    <value>XmlBuffer 物件在從相關串流讀取資料前關閉。</value>
+  </data>
+  <data name="FeedContributorsIgnoredOnWrite" xml:space="preserve">
+    <value>以 RSS 2.0 格式將摘要序列化時，未序列化摘要的參與者。</value>
+  </data>
+  <data name="FeedLinksIgnoredOnWrite" xml:space="preserve">
+    <value>以 RSS 2.0 格式將摘要序列化時，未序列化摘要的連結。</value>
+  </data>
+  <data name="ItemAuthorsIgnoredOnWrite" xml:space="preserve">
+    <value>以 RSS 2.0 格式將摘要序列化時，未序列化項目的作者。</value>
+  </data>
+  <data name="ErrorParsingItem" xml:space="preserve">
+    <value>剖析項目的 XML 時發生錯誤。如需詳細資訊，請參閱內部例外狀況。</value>
+  </data>
+  <data name="ErrorParsingFeed" xml:space="preserve">
+    <value>剖析摘要的 XML 時發生錯誤。如需詳細資訊，請參閱內部例外狀況。</value>
+  </data>
+  <data name="XmlBufferInInvalidState" xml:space="preserve">
+    <value>發生內部錯誤。XML 緩衝區的狀態不正確，無法執行該作業。</value>
+  </data>
+  <data name="XmlFoundCData" xml:space="preserve">
+    <value>cdata '{0}'</value>
+  </data>
+  <data name="UnsupportedRssVersion" xml:space="preserve">
+    <value>Rss20Serializer 不支援 RSS 版本 '{0}'。</value>
+  </data>
+  <data name="InvalidObjectTypePassed" xml:space="preserve">
+    <value>傳遞為參數 '{0}' 的物件類型並非衍生自 {1}。請確定傳遞之物件的類型是 {1} 或衍生自 {1}。</value>
+  </data>
+  <data name="ExtensionNameNotSpecified" xml:space="preserve">
+    <value>必須指定延伸項目的名稱。</value>
+  </data>
+  <data name="ItemCreatedNullCategory" xml:space="preserve">
+    <value>項目已建立 null 類別。</value>
+  </data>
+  <data name="XmlFoundEndElement" xml:space="preserve">
+    <value>來自命名空間 '{1}' 的結束項目 '{0}'</value>
+  </data>
+</root>

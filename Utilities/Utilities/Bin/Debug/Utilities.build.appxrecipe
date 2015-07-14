@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SPOORTHY</Machine>
+    <WindowsUser>SAI SPOORTHY</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>f136e0a0-102e-4c2b-b51b-d0473d4b30ac</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Bin\Debug\Utilities.dll">
+      <PackagePath>Utilities.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\packages\Coding4Fun.Toolkit.Audio.2.0.8\lib\windowsphone8\Coding4Fun.Toolkit.Audio.dll">
+      <PackagePath>Coding4Fun.Toolkit.Audio.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\packages\Coding4Fun.Toolkit.Controls.2.0.9\lib\windowsphone8\Coding4Fun.Toolkit.Controls.dll">
+      <PackagePath>Coding4Fun.Toolkit.Controls.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\packages\Coding4Fun.Toolkit.Controls.2.0.9\lib\windowsphone8\Coding4Fun.Toolkit.dll">
+      <PackagePath>Coding4Fun.Toolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\packages\Coding4Fun.Toolkit.Net.2.0.8\lib\windowsphone8\Coding4Fun.Toolkit.Net.dll">
+      <PackagePath>Coding4Fun.Toolkit.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\packages\Coding4Fun.Toolkit.Storage.2.0.8\lib\windowsphone8\Coding4Fun.Toolkit.Storage.dll">
+      <PackagePath>Coding4Fun.Toolkit.Storage.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Downloads\SilverlightMessageBoxLibrary.dll">
+      <PackagePath>SilverlightMessageBoxLibrary.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\packages\Coding4Fun.Toolkit.Controls.2.0.9\lib\windowsphone8\cs\Coding4Fun.Toolkit.Controls.resources.dll">
+      <PackagePath>cs\Coding4Fun.Toolkit.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\packages\Coding4Fun.Toolkit.Controls.2.0.9\lib\windowsphone8\da\Coding4Fun.Toolkit.Controls.resources.dll">
+      <PackagePath>da\Coding4Fun.Toolkit.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\packages\Coding4Fun.Toolkit.Controls.2.0.9\lib\windowsphone8\de\Coding4Fun.Toolkit.Controls.resources.dll">
+      <PackagePath>de\Coding4Fun.Toolkit.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\packages\Coding4Fun.Toolkit.Controls.2.0.9\lib\windowsphone8\es\Coding4Fun.Toolkit.Controls.resources.dll">
+      <PackagePath>es\Coding4Fun.Toolkit.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\packages\Coding4Fun.Toolkit.Controls.2.0.9\lib\windowsphone8\fr\Coding4Fun.Toolkit.Controls.resources.dll">
+      <PackagePath>fr\Coding4Fun.Toolkit.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\packages\Coding4Fun.Toolkit.Controls.2.0.9\lib\windowsphone8\it\Coding4Fun.Toolkit.Controls.resources.dll">
+      <PackagePath>it\Coding4Fun.Toolkit.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\packages\Coding4Fun.Toolkit.Controls.2.0.9\lib\windowsphone8\ko\Coding4Fun.Toolkit.Controls.resources.dll">
+      <PackagePath>ko\Coding4Fun.Toolkit.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\packages\Coding4Fun.Toolkit.Controls.2.0.9\lib\windowsphone8\no\Coding4Fun.Toolkit.Controls.resources.dll">
+      <PackagePath>no\Coding4Fun.Toolkit.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\packages\Coding4Fun.Toolkit.Controls.2.0.9\lib\windowsphone8\pl\Coding4Fun.Toolkit.Controls.resources.dll">
+      <PackagePath>pl\Coding4Fun.Toolkit.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\packages\Coding4Fun.Toolkit.Controls.2.0.9\lib\windowsphone8\pt\Coding4Fun.Toolkit.Controls.resources.dll">
+      <PackagePath>pt\Coding4Fun.Toolkit.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\packages\Coding4Fun.Toolkit.Controls.2.0.9\lib\windowsphone8\ru\Coding4Fun.Toolkit.Controls.resources.dll">
+      <PackagePath>ru\Coding4Fun.Toolkit.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\packages\Coding4Fun.Toolkit.Controls.2.0.9\lib\windowsphone8\sk\Coding4Fun.Toolkit.Controls.resources.dll">
+      <PackagePath>sk\Coding4Fun.Toolkit.Controls.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Assets\Appbar\save.png">
+      <PackagePath>Assets\Appbar\save.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Toolkit.Content\ApplicationBar.Cancel.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Cancel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Toolkit.Content\ApplicationBar.Check.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Check.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\ReadMe.Coding4Fun.Toolkit.txt">
+      <PackagePath>ReadMe.Coding4Fun.Toolkit.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SAI SPOORTHY\Desktop\C SHARP\Utilities\Utilities\Bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
