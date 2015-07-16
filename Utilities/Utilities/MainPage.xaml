@@ -15,6 +15,7 @@
     ApplicationBar="{StaticResource globalApplicationBar}">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
+    <ScrollViewer Grid.Row="1">
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -33,7 +34,15 @@
                 <ColumnDefinition Width="367*"/>
                 <ColumnDefinition Width="60*"/>
             </Grid.ColumnDefinitions>
-            <TextBox  Text="Batman is a fictional superhero appearing in American comic books published by DC Comics. The character was created by artist Bob Kane and writer Bill Finger, and first appeared in Detective Comics #27"  FontSize="24" Margin="29,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" x:Name="text_box" Tap="text_box_Tap" Grid.ColumnSpan="3"   />
+            <TextBox  Text="Batman is a fictional superhero appearing in American comic books published by DC Comics. The character was created by artist Bob Kane and writer Bill Finger, and first appeared in Detective Comics #27" 
+                      FontSize="24"
+                      Margin="29,10,0,0"
+                      HorizontalAlignment="Left" 
+                      VerticalAlignment="Top" 
+                      TextWrapping="Wrap" 
+                      x:Name="text_box" 
+                      Tap="text_box_Tap"
+                      Grid.ColumnSpan="3"   />
 
             <MediaElement x:Name="AudioPlayer" AutoPlay="False" HorizontalAlignment="Right" Width="448" Margin="0,240,0,176" Grid.ColumnSpan="3" />
             <Button x:Name="Play" Click="Play_Click"  Content="PLAY" Margin="0,245,233,195" Grid.ColumnSpan="2"/>
@@ -54,6 +63,7 @@
             Before shipping remove this XAML and the image itself.-->
         <!--<Image Source="/Assets/AlignmentGrid.png" VerticalAlignment="Top" Height="800" Width="480" Margin="0,-32,0,0" Grid.Row="0" Grid.RowSpan="2" IsHitTestVisible="False" />-->
     </Grid>
+    </ScrollViewer>
 
 
 </phone:PhoneApplicationPage>

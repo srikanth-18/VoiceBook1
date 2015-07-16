@@ -24,9 +24,9 @@ namespace RSS_UPDATE
         {
             InitializeComponent();
             Loaded += loadFeedButton_Click;
-
+            
             // Sample code to localize the ApplicationBar
-            //BuildLocalizedApplicationBar();
+           //BuildLocalizedApplicationBar();
         }
 
         private void loadFeedButton_Click(object sender, RoutedEventArgs e)
@@ -86,18 +86,19 @@ namespace RSS_UPDATE
 
             ListBoxItem item = this.myList.ItemContainerGenerator.ContainerFromIndex(myList.SelectedIndex) as ListBoxItem;
             TextBlock tagregCheckBox = FindLastElementInVisualTree<TextBlock>(item);
-            MessageBox.Show(tagregCheckBox.Text);
+            //MessageBox.Show(tagregCheckBox.Text);
 
-            article mynewPage = new article(tagregCheckBox.Text); //newPage is the name of the newPage.xaml file
-            this.Content = mynewPage;
+            //article mynewPage = new article(tagregCheckBox.Text); //newPage is the name of the newPage.xaml file
+            //this.Content = mynewPage;
+           
             //            NavigationService.Navigate(new Uri("/artcile.xaml?link="+tagregCheckBox.Text,UriKind.Relative));
-
+            this.NavigationService.Navigate(new Uri("/article1.xaml?link=" + tagregCheckBox.Text, UriKind.Relative));
             
-            HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(new System.Uri(tagregCheckBox.Text+"l"));
-            IAsyncResult result = request.BeginGetResponse(new AsyncCallback(ReadWebRequestCallback), request);
+            //HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(new System.Uri(tagregCheckBox.Text+"l"));
+            //IAsyncResult result = request.BeginGetResponse(new AsyncCallback(ReadWebRequestCallback), request);
             
           
-            MessageBox.Show("waiting for a signal");
+            //MessageBox.Show("waiting for a signal");
             //MessageBox.Show(html);
             
             
@@ -164,20 +165,27 @@ namespace RSS_UPDATE
 
 
 
-        // Sample code for building a localized ApplicationBar
-        //private void BuildLocalizedApplicationBar()
+        // //Sample code for building a localized ApplicationBar
+        //public void BuildLocalizedApplicationBar()
         //{
         //    // Set the page's ApplicationBar to a new instance of ApplicationBar.
         //    ApplicationBar = new ApplicationBar();
 
+        //    ApplicationBar.IsVisible = true;
         //    // Create a new button and set the text value to the localized string from AppResources.
-        //    ApplicationBarIconButton appBarButton = new ApplicationBarIconButton(new Uri("/Assets/AppBar/appbar.add.rest.png", UriKind.Relative));
+        //    ApplicationBarIconButton appBarButton = new ApplicationBarIconButton(new Uri("/Assets/AppBar/save.png", UriKind.Relative));
         //    appBarButton.Text = AppResources.AppBarButtonText;
         //    ApplicationBar.Buttons.Add(appBarButton);
+        //    appBarButton.Click += appBarButton_Click;
 
         //    // Create a new menu item with the localized string from AppResources.
         //    ApplicationBarMenuItem appBarMenuItem = new ApplicationBarMenuItem(AppResources.AppBarMenuItemText);
         //    ApplicationBar.MenuItems.Add(appBarMenuItem);
+        //}
+
+        //void appBarButton_Click(object sender, EventArgs e)
+        //{
+        //    MessageBox.Show("You clicked me");
         //}
     }
 }

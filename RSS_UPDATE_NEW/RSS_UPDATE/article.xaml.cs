@@ -17,18 +17,42 @@ using System.ServiceModel.Syndication;
 
 using System.Windows.Media.Imaging;
 using HtmlAgilityPack;
+using System.Net;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Navigation;
+using Microsoft.Phone.Controls;
+using Microsoft.Phone.Shell;
+//using Utilities.Resources;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows;
+using Windows.Foundation;
+using Windows.Phone.Speech.Synthesis;
+using System.Windows.Media;
+using Coding4Fun.Toolkit.Audio;
+using System.IO.IsolatedStorage;
+using System.IO;
+using Coding4Fun.Toolkit.Audio.Helpers;
+using Coding4Fun.Toolkit.Controls;
+using SilverlightMessageBoxLibrary;
 namespace RSS_UPDATE
 {
+
+
     public partial class article : PhoneApplicationPage
     {
         public string article_link;
-
+    
         public article(string Link)
         {
             article_link = Link;
 
             InitializeComponent();
             Loaded += article_Loaded;
+           // BuildLocalizedApplicationBar();
+            text_description.Style = (Style)App.Current.Resources["CopyTextBlock"];
         }
         
 
@@ -67,7 +91,7 @@ namespace RSS_UPDATE
 
                 try
                 {
-                       this.ImageAppLogo.Source = new BitmapImage(new Uri(img.Attributes["content"].Value, UriKind.Absolute));
+                       //this.ImageAppLogo.Source = new BitmapImage(new Uri(img.Attributes["content"].Value, UriKind.Absolute));
                     
                 }
                 catch (Exception q)
@@ -88,7 +112,7 @@ namespace RSS_UPDATE
                 try
                 {
                  
-                    this.text_description.Text = meta.Attributes["content"].Value;
+            //        this.text_description.Text = meta.Attributes["content"].Value;
                  
                     
                     //   MessageBox.Show(meta.Attributes["content"].Value);
@@ -126,14 +150,6 @@ namespace RSS_UPDATE
 
                 }
 
-
-
-
-
-
-
-
-
             HtmlNodeCollection divs = new HtmlNodeCollection(htmlDocument.DocumentNode.ParentNode);
             divs = htmlDocument.DocumentNode.SelectNodes("//div[@id='morecontents']");
             if(divs!=null)
@@ -146,7 +162,8 @@ namespace RSS_UPDATE
 
                   //  MessageBox.Show(div.InnerText);
 
-                    this.text_description.Inlines.Add(div.InnerText);
+                    //this.text_description.Inlines.Add(div.InnerText);
+                    //this.text_description.Text += div.InnerText;
                   
                 }
                 catch (Exception q)
@@ -158,13 +175,6 @@ namespace RSS_UPDATE
             }
 
 
-
-
-
-
-
-
-            
 
                 /* 
                  * str --> contains the entire html content of our each news feed
@@ -198,13 +208,67 @@ namespace RSS_UPDATE
 
         }
 
-        
+        private void text_box_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            MessageBox.Show("Taped textbox");
+            int selected_index = text_description.SelectionStart;
+            int number_of_spaces = 0;
+            for (int i = selected_index; i > 0; i--)
+            {
+
+                if (text_description.Text[i] == ' ')
+                {
+                    number_of_spaces++;
+
+                }
+
+            }
+            
+        //     BuildLocalizedApplicationBar();
+
+             /*ApplicationBar appBar = new ApplicationBar();
+             appBar.IsMenuEnabled = true;
+             appBar.Buttons.Add(new ApplicationBarIconButton()
+             {
+                 Text = "Add"
+                 ,
+                 IconUri = new Uri("/Assets/Appbar/save.png", UriKind.Relative)
+             });
+             this.ApplicationBar = appBar;
+             this.ApplicationBar.IsVisible = true;*/
+             //MessageBox.Show("Appbar added");
+           // test.Speak(number_of_spaces);
+              
+           
+        }
 
 
+
+        //private void BuildLocalizedApplicationBar()
+        //{
+        //    ApplicationBar = new ApplicationBar();
+        //    ApplicationBar.IsVisible = true;
+        //    // Create a new button and set the text value to the localized string from AppResources.
+        //    ApplicationBarIconButton recordAudioAppBar = new ApplicationBarIconButton(new Uri("/Assets/Appbar/save.png", UriKind.Relative));
+        //    recordAudioAppBar.Text = AppResources.AppBarButtonText;
+        //    recordAudioAppBar.Click += recordAudioAppBar_Click;
+        //    ApplicationBar.Buttons.Add(recordAudioAppBar);
+
+        //    // Create a new menu item with the localized string from AppResources.
+        //    ApplicationBarMenuItem appBarMenuItem = new ApplicationBarMenuItem(AppResources.AppBarMenuItemText);
+        //    ApplicationBar.MenuItems.Add(appBarMenuItem);
+        //}
+
+        //private void recordAudioAppBar_Click(object sender, System.EventArgs e)
+        //{
+        //    MessageBox.Show("this works");
+        //    throw new System.NotImplementedException();
+        //}
        
 
         
     }
+
 
     }
 

@@ -1,4 +1,9 @@
 Assets\AlignmentGrid.png
+Assets\Appbar\button_black_pause.png
+Assets\Appbar\button_play.png
+Assets\Appbar\microphone.png
+Assets\Appbar\pause.png
+Assets\Appbar\stop.png
 Assets\ApplicationIcon.png
 Assets\BadgeLogo.png
 Assets\htmlstring.txt
@@ -13,3 +18,6 @@ Assets\Tiles\FlipCycleTileSmall.png
 Assets\Tiles\IconicTileMediumLarge.png
 Assets\Tiles\IconicTileSmall.png
 Assets\WideLogo.png
+ReadMe.Coding4Fun.Toolkit.txt
+Toolkit.Content\ApplicationBar.Cancel.png
+Toolkit.Content\ApplicationBar.Check.png

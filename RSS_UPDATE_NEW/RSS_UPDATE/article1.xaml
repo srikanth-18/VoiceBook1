@@ -1,0 +1,63 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="RSS_UPDATE.article1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <ScrollViewer Grid.Row="1">
+        <Grid x:Name="LayoutRoot" Background="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!--TitlePanel contains the name of the application and page title-->
+            <StackPanel Grid.Row="0" Margin="12,17,0,28">
+                <TextBlock Text="VOICE BOOK" Style="{StaticResource PhoneTextNormalStyle}"/>
+                <TextBlock Text="LATEST NEWS" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            </StackPanel>
+
+            <!--ContentPanel - place additional content here-->
+            <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,43">
+                <Grid Grid.Row="2">
+                    <ToggleButton Content="Record" x:Name="Record"
+                              Checked="RecordAudioChecked"
+                              Unchecked="RecordAudioUnChecked" Margin="0,-200,10,1014" RenderTransformOrigin="-1.156,-0.692" Height="90"/>
+
+                </Grid>
+
+                <MediaElement x:Name="AudioPlayer" AutoPlay="False" HorizontalAlignment="Right"  />
+                
+                <Grid Grid.Row="3">
+                    <Image x:Name="ImageAppLogo" Height="256" VerticalAlignment="Top" HorizontalAlignment="Left" Width="456" Margin="0,10,0,0"/>
+                </Grid>
+
+                <Grid Grid.Row="4">
+                    <TextBox x:Name="text_description"
+                      FontSize="24"
+                      Margin="0,253,0,0"
+                      HorizontalAlignment="Left" 
+                      VerticalAlignment="Top" 
+                      TextWrapping="Wrap"
+                         Tap="text_box_Tap"
+                         Text="Batman is a fictional superhero appearing in American comic books published by DC Comics. The character was created by artist Bob Kane and writer Bill Finger, and first appeared in Detective Comics #27" />
+                    <TextBox x:Name="html" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="10" Width="10" Margin="12,0,12,0" TextWrapping="Wrap" />
+                </Grid>
+
+
+            </Grid>
+
+        </Grid>
+
+    </ScrollViewer>
+</phone:PhoneApplicationPage>

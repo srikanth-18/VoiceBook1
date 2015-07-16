@@ -4,6 +4,11 @@
     <File>resources.pri</File>
     <File>RSS_UPDATE.dll</File>
     <File>Assets\AlignmentGrid.png</File>
+    <File>Assets\Appbar\button_black_pause.png</File>
+    <File>Assets\Appbar\button_play.png</File>
+    <File>Assets\Appbar\microphone.png</File>
+    <File>Assets\Appbar\pause.png</File>
+    <File>Assets\Appbar\stop.png</File>
     <File>Assets\BadgeLogo.png</File>
     <File>Assets\htmlstring.txt</File>
     <File>Assets\Logo.png</File>
@@ -16,10 +21,19 @@
     <File>Assets\Tiles\IconicTileMediumLarge.png</File>
     <File>Assets\Tiles\IconicTileSmall.png</File>
     <File>Assets\WideLogo.png</File>
+    <File>ReadMe.Coding4Fun.Toolkit.txt</File>
+    <File>Toolkit.Content\ApplicationBar.Cancel.png</File>
+    <File>Toolkit.Content\ApplicationBar.Check.png</File>
     <File>AppManifest.xaml</File>
     <File>Assets\ApplicationIcon.png</File>
     <File>Assets\Tiles\FlipCycleTileMedium.png</File>
+    <File>Coding4Fun.Toolkit.Audio.dll</File>
+    <File>Coding4Fun.Toolkit.Controls.dll</File>
+    <File>Coding4Fun.Toolkit.dll</File>
+    <File>Coding4Fun.Toolkit.Net.dll</File>
+    <File>Coding4Fun.Toolkit.Storage.dll</File>
     <File>HtmlAgilityPack.dll</File>
+    <File>SilverlightMessageBoxLibrary.dll</File>
     <File>System.ServiceModel.Syndication.dll</File>
     <File>System.Xml.XPath.dll</File>
     <File>HtmlAgilityPack.xml</File>

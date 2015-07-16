@@ -34,7 +34,7 @@ namespace RSS_UPDATE
 
             // Language display initialization
             InitializeLanguage();
-
+            
             // Show graphics profiling information while debugging.
             if (Debugger.IsAttached)
             {
@@ -56,6 +56,8 @@ namespace RSS_UPDATE
             }
 
         }
+
+        
 
         // Code to execute when the application is launching (eg, from Start)
         // This code will not execute when the application is reactivated
@@ -87,6 +89,7 @@ namespace RSS_UPDATE
             if (Debugger.IsAttached)
             {
                 // A navigation has failed; break into the debugger
+                MessageBox.Show(e.ToString());
                 Debugger.Break();
             }
         }
@@ -94,6 +97,7 @@ namespace RSS_UPDATE
         // Code to execute on Unhandled Exceptions
         private void Application_UnhandledException(object sender, ApplicationUnhandledExceptionEventArgs e)
         {
+            
             if (Debugger.IsAttached)
             {
                 // An unhandled exception has occurred; break into the debugger
@@ -218,6 +222,11 @@ namespace RSS_UPDATE
 
                 throw;
             }
+        }
+
+        private void Save_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

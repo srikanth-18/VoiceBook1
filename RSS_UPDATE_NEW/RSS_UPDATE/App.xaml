@@ -8,6 +8,56 @@
     <!--Application Resources-->
     <Application.Resources>
         <local:LocalizedStrings xmlns:local="clr-namespace:RSS_UPDATE" x:Key="LocalizedStrings"/>
+        <shell:ApplicationBar x:Key="GlobalAppBar" IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="Assets/Appbar/save.png" Text="Save" Click="Save_Click" />
+        </shell:ApplicationBar>
+        <Style x:Key="CopyTextBlock" TargetType="TextBox">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="{x:Null}"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            
+            
+            <Setter Property="FontFamily"
+            Value="{StaticResource PhoneFontFamilyNormal}"/>
+            <Setter Property="FontSize"
+            Value="{StaticResource PhoneFontSizeNormal}"/>
+            <Setter Property="Foreground"
+            Value="{StaticResource PhoneForegroundBrush}"/>
+            <Setter Property="IsReadOnly" Value="True"/>
+            <Setter Property="SelectionBackground"
+            Value="{StaticResource PhoneAccentBrush}"/>
+            <Setter Property="SelectionForeground"
+            Value="{StaticResource PhoneTextBoxSelectionForegroundBrush}"/>
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Grid Background="Transparent">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver"/>
+                                    <VisualState x:Name="Disabled"/>
+                                    <VisualState x:Name="ReadOnly" />
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="FocusStates">
+                                    <VisualState x:Name="Focused" />
+                                    <VisualState x:Name="Unfocused"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <ContentControl x:Name="ContentElement"
+                                    BorderThickness="0"
+                                    HorizontalContentAlignment="Stretch"
+                                    Margin="{TemplateBinding Margin}"
+                                    Padding="{TemplateBinding Padding}"
+                                    VerticalContentAlignment="Stretch" />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
     </Application.Resources>
 
     <Application.ApplicationLifetimeObjects>
