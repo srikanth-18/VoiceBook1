@@ -1,0 +1,35 @@
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\Bin\Debug\Start Page.dll
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\Bin\Debug\Start Page.pdb
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\Bin\Debug\resources.pri
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\Bin\Debug\AppxManifest.xml
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\Bin\Debug\Start Page.build.appxrecipe
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\Bin\Debug\AppManifest.xaml
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\Bin\Debug\Start_Page_Debug_AnyCPU.xap
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\App.g.cs
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\MainPage.g.cs
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\Start Page.g.resources
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\Start_Page.Resources.AppResources.resources
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\Start Page.csproj.GenerateResource.Cache
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\Start Page.dll
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\Start Page.pdb
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\priconfig.xml
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\priconfig.xml.intermediate
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\layout.resfiles
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\layout.resfiles.intermediate
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\resources.resfiles
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\resources.resfiles.intermediate
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\pri.resfiles
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\pri.resfiles.intermediate
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\qualifiers.txt
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\qualifiers.txt.intermediate
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\ProjectArchitectures.txt
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\MDILProjectFiles.xml
+C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\XapCacheFile.xml
