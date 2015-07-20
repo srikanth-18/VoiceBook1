@@ -29,7 +29,29 @@
 
         <!--ContentPanel contains details text. Place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <TextBlock  x:Name="Link_box" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}"/>
+   <!--         <TextBlock  x:Name="Link_box" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}"/>-->
+
+            <ListBox Name="myList" Margin="12,0,12,0" SelectionChanged="myList_SelectionChanged_1"  >
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel >
+                            <TextBlock  Text="{Binding Path=Title}" Foreground="White" TextDecorations="Underline" FontSize="24" Name="feedTitle" TextWrapping="Wrap" Margin="12,0,0,0" HorizontalAlignment="Left"  />
+                            <TextBlock  TextWrapping="Wrap" Margin="12,0,0,0" Text="{Binding Path=PubDate}" Foreground="Gray"/>
+                            <TextBlock  Text="{Binding Path=Description}"  Margin="12,0,0,10"  Foreground="Green" TextWrapping="Wrap"/>
+                            <TextBlock  Tag="{Binding Name}" x:Name="textbox1"  Text="{Binding Path=Link}"  Margin="12,0,0,10"  Foreground="RoyalBlue" TextWrapping="Wrap"/>
+
+                        </StackPanel>
+
+                    </DataTemplate>
+
+                </ListBox.ItemTemplate>
+
+            </ListBox>
+
+
+
+
+
         </Grid>
 
     </Grid>

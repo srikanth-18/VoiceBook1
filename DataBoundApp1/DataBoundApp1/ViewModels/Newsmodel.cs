@@ -50,8 +50,8 @@ namespace DataBoundApp1.ViewModels
         {
             Newspapers data = new Newspapers();
             data.Title = "TOI";
-            data.Items.Add(new Categories() { Title = " TOI Top News", Path = "link for TOI Top News" });
-            data.Items.Add(new Categories() { Title = " TOI Latest News", Path = "link for TOI Latest News" });
+            data.Items.Add(new Categories() { Title = " TOI Top News", Path = "http://dynamic.feedsportal.com/pf/555218/http://toi.timesofindia.indiatimes.com/rssfeedstopstories.cms" });
+            data.Items.Add(new Categories() { Title = " TOI Latest News", Path = "http://timesofindia.feedsportal.com/c/33039/f/533965/index.rss" });
             data.Items.Add(new Categories() { Title = " TOI Trending News", Path = "link for TOI Trending News" });
             return data;
         }

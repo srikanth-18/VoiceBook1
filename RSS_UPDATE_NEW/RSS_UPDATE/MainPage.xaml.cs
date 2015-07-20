@@ -42,7 +42,7 @@ namespace RSS_UPDATE
             // Remove encoded HTML characters.
             fixedString = HttpUtility.HtmlDecode(fixedString);
 
-            
+
 
             WebClient client = new WebClient();
 

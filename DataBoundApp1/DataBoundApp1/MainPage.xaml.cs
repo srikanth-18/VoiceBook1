@@ -23,7 +23,7 @@ namespace DataBoundApp1
             DataContext = App.ViewModel;
 
             // Sample code to localize the ApplicationBar
-            BuildLocalizedApplicationBar();
+            //BuildLocalizedApplicationBar();
         }
 
         // Load data for the ViewModel Items
