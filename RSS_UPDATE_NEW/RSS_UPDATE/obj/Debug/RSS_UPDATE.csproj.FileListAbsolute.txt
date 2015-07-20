@@ -313,11 +313,3 @@ C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\RSS_UPDATE_NEW\RSS_UPDATE\Bin\Debug\pt\
 C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\RSS_UPDATE_NEW\RSS_UPDATE\Bin\Debug\ru\Coding4Fun.Toolkit.Controls.resources.dll
 C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\RSS_UPDATE_NEW\RSS_UPDATE\Bin\Debug\sk\Coding4Fun.Toolkit.Controls.resources.dll
 C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\RSS_UPDATE_NEW\RSS_UPDATE\obj\Debug\article1.g.cs
-C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\RSS_UPDATE_NEW\RSS_UPDATE\obj\Debug\System.Xml.XPath\layout.resfiles
-C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\RSS_UPDATE_NEW\RSS_UPDATE\obj\Debug\System.Xml.XPath\layout.resfiles.intermediate
-C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\RSS_UPDATE_NEW\RSS_UPDATE\obj\Debug\System.Xml.XPath\Resources.resfiles
-C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\RSS_UPDATE_NEW\RSS_UPDATE\obj\Debug\System.Xml.XPath\Resources.resfiles.intermediate
-C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\RSS_UPDATE_NEW\RSS_UPDATE\obj\Debug\System.Xml.XPath\pri.resfiles
-C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\RSS_UPDATE_NEW\RSS_UPDATE\obj\Debug\System.Xml.XPath\pri.resfiles.intermediate
-C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\RSS_UPDATE_NEW\RSS_UPDATE\obj\Debug\System.Xml.XPath\priconfig.xml
-C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\RSS_UPDATE_NEW\RSS_UPDATE\obj\Debug\System.Xml.XPath\priconfig.xml.intermediate

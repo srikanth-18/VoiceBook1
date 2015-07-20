@@ -1,0 +1,14 @@
+﻿<vm:MainViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:DataBoundApp1.ViewModels"
+    SampleProperty="Sample Text Property Value">
+
+    <vm:MainViewModel.Items>
+        <vm:ItemViewModel ID="0" LineOne="Latest News" LineTwo=""/>
+        <vm:ItemViewModel ID="1" LineOne="Trending News" LineTwo=""/>
+        <vm:ItemViewModel ID="2" LineOne="Recent News" LineTwo=""/>
+        
+    </vm:MainViewModel.Items>
+
+</vm:MainViewModel>

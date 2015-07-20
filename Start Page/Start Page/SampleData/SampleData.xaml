@@ -1,0 +1,32 @@
+﻿<vm:Start_Page.ViewModels.Newsmodel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:Start_Page.ViewModels">
+
+    <vm:Newsmodel.TOI>
+        <vm:Newspapers Title="TOI">
+            <vm:Newspapers.Items>
+                <vm:Categories Title="Breaking News" Link="http://google.com" />
+            </vm:Newspapers.Items>
+        </vm:Newspapers>
+    </vm:Newsmodel.TOI>
+    
+    <vm:Newsmodel.ECONOMICTIMES>
+        <vm:Newspapers Title="ECONOMIC TIMES">
+            <vm:Newspapers.Items>
+                <vm:Categories Title="Breaking News" Link="http://google.com" />
+            </vm:Newspapers.Items>
+        </vm:Newspapers>
+    </vm:Newsmodel.ECONOMICTIMES>
+
+    <vm:Newsmodel.NDTV>
+        <vm:Newspapers Title="NDTV">
+            <vm:Newspapers.Items>
+                <vm:Categories Title="Breaking News" Link="http://google.com" />
+                <vm:Categories Title="Latest News" Link="http://google.com" />
+                <vm:Categories Title="Trending News" Link="http://google.com" />
+            </vm:Newspapers.Items>
+        </vm:Newspapers>
+    </vm:Newsmodel.NDTV>
+
+</vm:Start_Page.ViewModels.Newsmodel>

@@ -74,10 +74,6 @@ namespace RSS_UPDATE
             myList.ItemsSource = RSSData;
 
         }
-        //private static ManualResetEvent allDone = new ManualResetEvent(false);
-        //public ManualResetEvent waitHandle = new ManualResetEvent(false);
-        //public ManualResetEvent mrse = new ManualResetEvent(false);
-        
         string html = "";
         private void myList_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
         {

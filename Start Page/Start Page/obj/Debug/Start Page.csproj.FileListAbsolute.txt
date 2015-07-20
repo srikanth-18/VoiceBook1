@@ -33,3 +33,11 @@ C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\MultipleQu
 C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\ProjectArchitectures.txt
 C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\MDILProjectFiles.xml
 C:\Users\SAI SPOORTHY\Desktop\C SHARP\Start Page\Start Page\obj\Debug\XapCacheFile.xml
+C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\Start Page\Start Page\obj\Debug\Start Page.csprojResolveAssemblyReference.cache
+C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\Start Page\Start Page\obj\Debug\App.g.cs
+C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\Start Page\Start Page\obj\Debug\MainPage.g.cs
+C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\Start Page\Start Page\obj\Debug\newspapers.g.cs
+C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\Start Page\Start Page\obj\Debug\Start Page.g.resources
+C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\Start Page\Start Page\obj\Debug\Start_Page.Resources.AppResources.resources
+C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\Start Page\Start Page\obj\Debug\Start Page.csproj.GenerateResource.Cache
+C:\Users\SAI SPOORTHY\Desktop\VOICE BOOK\Start Page\Start Page\obj\Debug\Start Page.dll

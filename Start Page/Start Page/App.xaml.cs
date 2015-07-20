@@ -7,7 +7,7 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using Start_Page.Resources;
-
+using Start_Page.ViewModels;
 namespace Start_Page
 {
     public partial class App : Application
@@ -21,6 +21,24 @@ namespace Start_Page
         /// <summary>
         /// Constructor for the Application object.
         /// </summary>
+        /// 
+        private static Start_Page.ViewModels.Newsmodel viewModel = null;
+        public static Start_Page.ViewModels.Newsmodel ViewModel
+        {
+
+            get
+            {
+                if (viewModel == null)
+                {
+                    viewModel = new Newsmodel();
+                    viewModel.LoadData();
+                }
+
+                return viewModel;
+            }
+
+        }
+       
         public App()
         {
             // Global handler for uncaught exceptions.
@@ -73,6 +91,10 @@ namespace Start_Page
         // This code will not execute when the application is first launched
         private void Application_Activated(object sender, ActivatedEventArgs e)
         {
+            if (!App.ViewModel.IsDataLoaded)
+            {
+                App.ViewModel.LoadData();
+            }
         }
 
         // Code to execute when the application is deactivated (sent to background)
